@@ -97,31 +97,6 @@ def source_feature_generating():
         print(f'Feature generating : {t1 - t0}')
 
 
-    """
-    Main function for feature generating.
-
-    Returns:
-    - None
-    """
-
-    folders = ['PoC']
-
-    for i, curr_suffix in enumerate(folders):
-
-        t0 = datetime.datetime.now()
-
-        DATA_PATH = f'./Data/Images_{curr_suffix}/'
-        LABEL_PATH = f'./Data/Labels_{curr_suffix}/'
-        OUTPUT_PATH = f'./Results/Generating_Features/'
-        DIR_NAME = f'FoI_Xy_{curr_suffix}_FULL'
-
-        feature_generating(DATA_PATH, LABEL_PATH, OUTPUT_PATH, DIR_NAME)
-
-        t1 = datetime.datetime.now()
-
-        print(f'Feature generating : {t1 - t0}')
-
-
 if __name__ == '__main__':
 
     print('Hello, home!')
