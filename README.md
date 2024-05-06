@@ -36,7 +36,7 @@ Složky [Clustering_Features, Generating_Features, Selecting_Features] neobsahuj
 2. **feature_clusterer_CPU.py** nebo **feature_clusterer_GPU.py**
 3. **feature_selection.py** a **feature_selection_based_on_experiment.py**
 
-Spuštění těchto skriptů je časově i paměťově náročné (celkově hodiny a cca 100 GB).
+Spuštění těchto skriptů je časově i paměťově náročné (řádově hodiny a cca 100 GB).
 
 ## Použití
 
