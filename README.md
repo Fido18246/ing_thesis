@@ -17,7 +17,7 @@ Diplomová práce se zabývá segmentací buněk ve snímcích BAL.
     - Selecting_Features: CSV soubory, které obsahují jen vybraný počet features
     - Workflow_Testing: Obsahuje podsložky s dílčími výsledky postupu segmentace. Podsloužky obsahují CSV soubory a obrázky metrik.
      
-- Scripts: Složka, která obsahuje podsložky se skripty a 
+- Scripts: Složka, která obsahuje podsložky se skripty a Jupyter Notebooky
     - Analysis: Obsahuje podsložky s Jupyter Notebooky, které obsahují vizualizaci k problematice dané podsložky
     - Best_Models: Obsahuje skripty, kde jsou ML algoritmy s nastavenými hyperparametry
     - Clustering_Features: Obsahuje skripty, které shlukují feature space
